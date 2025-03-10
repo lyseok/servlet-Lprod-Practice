@@ -20,14 +20,6 @@ import prod.vo.ProdVO;
 public class ProdByLgu extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ProdByLgu() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// 전송 데이터 받기
 		String guValue = request.getParameter("gu");
