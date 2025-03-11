@@ -22,8 +22,6 @@ MyBatis를 사용하여 데이터베이스와 연동하고, Servlet을 이용해
 ## ✨ 프로젝트 구조
 
 ```
-arduino
-복사편집
 src/
 ├── prod/
 │   ├── controller/            // 서블릿 컨트롤러
